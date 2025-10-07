@@ -10,16 +10,18 @@
 
 <body>
     <main>
-        <nav>
+       <div class="nav-container">
+         <nav>
             <h1>STRIKE</h1>
             <div class="nav-links">
                 <a href="#">Home</a>
-                <a href="#">Courses</a>
-                <a href="#">Study Materials</a>
+                <a href="#courses">Courses</a>
+                <a href="#study">Study Materials</a>
                 <a href="#">About</a>
             </div>
             <button>Sign Up / Login</button>
         </nav>
+       </div>
         <div class="hero">
             <div class="hero-cont">
                 <h1>Unlock your <br> Al potential</h1>
@@ -29,6 +31,283 @@
             </div>
         </div>
     </main>
+
+
+
+
+
+
+    <section class="courses-section" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Our Courses</h2>
+                <p>Master the skills that matter in tech</p>
+            </div>
+
+            <!-- DSA Category -->
+            <div class="category">
+                <h3 class="category-title">Data Structures & Algorithms</h3>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon">🎯</div>
+                        <h4 class="course-title">DSA Mastery Program</h4>
+                        <p class="course-description">Complete roadmap covering all essential data structures and algorithms with hands-on coding practice and problem-solving patterns.</p>
+                        <div class="course-meta">
+                            <span class="badge level-badge">Beginner to Advanced</span>
+                            <span class="badge duration-badge">12 Weeks</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">💡</div>
+                        <h4 class="course-title">Coding Patterns & Interview Prep</h4>
+                        <p class="course-description">Learn proven problem-solving patterns and ace your technical interviews with 200+ curated coding questions and detailed solutions.</p>
+                        <div class="course-meta">
+                            <span class="badge level-badge">Intermediate</span>
+                            <span class="badge duration-badge">8 Weeks</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">🚀</div>
+                        <h4 class="course-title">Advanced DSA Bootcamp</h4>
+                        <p class="course-description">Deep dive into complex algorithms, dynamic programming, graph theory, and advanced problem-solving techniques for competitive coding.</p>
+                        <div class="course-meta">
+                            <span class="badge level-badge">Advanced</span>
+                            <span class="badge duration-badge">10 Weeks</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Generative AI Category -->
+            <div class="category">
+                <h3 class="category-title">Generative AI</h3>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon">🤖</div>
+                        <h4 class="course-title">AI Foundations & Prompt Engineering</h4>
+                        <p class="course-description">Master the art of working with LLMs, learn prompt engineering techniques, and build your first AI-powered applications.</p>
+                        <div class="course-meta">
+                            <span class="badge level-badge">Beginner</span>
+                            <span class="badge duration-badge">6 Weeks</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">⚡</div>
+                        <h4 class="course-title">LLM Fine-tuning & Deployment</h4>
+                        <p class="course-description">Learn to fine-tune large language models, optimize performance, and deploy AI solutions to production environments.</p>
+                        <div class="course-meta">
+                            <span class="badge level-badge">Intermediate</span>
+                            <span class="badge duration-badge">8 Weeks</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">🔮</div>
+                        <h4 class="course-title">Advanced AI Projects</h4>
+                        <p class="course-description">Build real-world AI applications including chatbots, content generators, RAG systems, and AI-powered tools from scratch.</p>
+                        <div class="course-meta">
+                            <span class="badge level-badge">Advanced</span>
+                            <span class="badge duration-badge">10 Weeks</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Playlist -->
+            <div class="playlist-section">
+                <h3 class="playlist-title">🎥 Featured Course Playlist</h3>
+                <p style="color: var(--teal); margin-bottom: 25px;">Watch our comprehensive DSA tutorial series</p>
+                <div class="playlist-container">
+                    <iframe src="https://www.youtube.com/embed/videoseries?si=U15mkNbDOoF83n1s&list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+      <section class="resources-section" id="study">
+        <div class="container">
+            <div class="section-header">
+                <h2>Resources & Study Materials</h2>
+                <p>Free resources to accelerate your learning journey 📚</p>
+            </div>
+
+            <div class="resources-grid">
+                <!-- DSA Notes Card -->
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="card-icon">📝</div>
+                        <div class="card-text-content">
+                            <h3 class="card-title">DSA Notes</h3>
+                            <p class="card-subtitle">Comprehensive topic-wise notes</p>
+                        </div>
+                        <div class="expand-indicator">+</div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="resource-list">
+                            <li class="resource-item">
+                                <span class="resource-icon">📄</span>
+                                <span class="resource-name">Arrays & Strings</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📄</span>
+                                <span class="resource-name">Linked Lists & Trees</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📄</span>
+                                <span class="resource-name">Graphs & Dynamic Programming</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📄</span>
+                                <span class="resource-name">Sorting & Searching Algorithms</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📄</span>
+                                <span class="resource-name">Complete DSA Handbook</span>
+                                <span class="resource-badge">NEW</span>
+                            </li>
+                        </ul>
+                        <button class="download-btn"><span>📥 Download All Notes</span></button>
+                    </div>
+                </div>
+
+                <!-- Cheat Sheets Card -->
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-text-content">
+                            <h3 class="card-title">Cheat Sheets</h3>
+                            <p class="card-subtitle">Quick reference guides</p>
+                        </div>
+                        <div class="expand-indicator">+</div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="resource-list">
+                            <li class="resource-item">
+                                <span class="resource-icon">⚡</span>
+                                <span class="resource-name">Time Complexity Cheat Sheet</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">⚡</span>
+                                <span class="resource-name">Common Patterns Guide</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">⚡</span>
+                                <span class="resource-name">Interview Questions Checklist</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">⚡</span>
+                                <span class="resource-name">Data Structures Quick Reference</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                        </ul>
+                        <button class="download-btn"><span>📥 Access Cheat Sheets</span></button>
+                    </div>
+                </div>
+
+                <!-- Gen AI Projects Card -->
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="card-icon">🤖</div>
+                        <div class="card-text-content">
+                            <h3 class="card-title">Gen AI Projects</h3>
+                            <p class="card-subtitle">Live demos & code samples</p>
+                        </div>
+                        <div class="expand-indicator">+</div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="resource-list">
+                            <li class="resource-item">
+                                <span class="resource-icon">💻</span>
+                                <span class="resource-name">AI Chatbot Demo</span>
+                                <span class="resource-badge">LIVE</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">💻</span>
+                                <span class="resource-name">Image Generator Project</span>
+                                <span class="resource-badge">CODE</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">💻</span>
+                                <span class="resource-name">RAG System Implementation</span>
+                                <span class="resource-badge">CODE</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">💻</span>
+                                <span class="resource-name">Fine-tuning Tutorial</span>
+                                <span class="resource-badge">VIDEO</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">💻</span>
+                                <span class="resource-name">Prompt Engineering Guide</span>
+                                <span class="resource-badge">NEW</span>
+                            </li>
+                        </ul>
+                        <button class="download-btn"><span>🚀 Explore Projects</span></button>
+                    </div>
+                </div>
+
+                <!-- Practice Sheets Card -->
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="card-icon">🎯</div>
+                        <div class="card-text-content">
+                            <h3 class="card-title">Practice Sheets</h3>
+                            <p class="card-subtitle">Curated problem sets</p>
+                        </div>
+                        <div class="expand-indicator">+</div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="resource-list">
+                            <li class="resource-item">
+                                <span class="resource-icon">📊</span>
+                                <span class="resource-name">100 Essential Problems</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📊</span>
+                                <span class="resource-name">Company-wise Questions</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📊</span>
+                                <span class="resource-name">Topic-wise Practice Sets</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                            <li class="resource-item">
+                                <span class="resource-icon">📊</span>
+                                <span class="resource-name">Mock Interview Questions</span>
+                                <span class="resource-badge">PDF</span>
+                            </li>
+                        </ul>
+                        <button class="download-btn"><span>📥 Get Practice Sheets</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
