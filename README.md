@@ -1,4 +1,4 @@
-🧠 STRIKE — DSA & Gen AI Learning Platform
+# 🧠 STRIKE — DSA & Gen AI Learning Platform
 🚀 Overview
 
 STRIKE is a modern, student-friendly website designed to help learners master Data Structures & Algorithms (DSA) and explore the world of Generative AI.
